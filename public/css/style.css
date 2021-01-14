@@ -71,7 +71,8 @@ p {
 }
 
 .avatar-img {
-  border-radius: 25px; /* 圓框效果 */
+  border-radius: 50px; /* 圓框效果 */
+  width: 50%;
 }
 
 .name {
