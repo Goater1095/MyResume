@@ -5,9 +5,16 @@
       <section class="col-12 col-lg-5 personal-info">
         <div class='personal-1'>
           <div class="avatar">
-            <img class="avatar-img  img-fluid " src="/images/medium_IMG_20200503_160121.jpg" alt="">
+
+            {{!-- <img class="avatar-img  img-fluid" src="/images/bighead.jpg" alt=""> --}}
+
+            <img class="avatar-img  img-fluid" src="/images/medium_IMG_20200503_160121.jpg"
+              onmouseover="this.src='/images/bighead.jpg',this.style.width='45%'"
+              onmouseout="this.src='/images/medium_IMG_20200503_160121.jpg',this.style.width='55%'">
+
           </div>
-          <h1 class="name">
+
+          <h1 class=" name">
             Goater Li
           </h1>
           <div class="social-media">
@@ -28,8 +35,9 @@
             </a>
           </div>
           <div class="title">
-            光學工程師 | 竹南台灣
+            <a href="/">光學工程師</a> | <a href="/software">軟體工程師</a> | 竹南台灣
           </div>
+
         </div>
       </section>
       <div class="col-12 col-lg-7 align-self-center">

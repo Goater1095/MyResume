@@ -72,7 +72,7 @@ p {
 
 .avatar-img {
   border-radius: 50px; /* 圓框效果 */
-  width: 50%;
+  width: 55%;
 }
 
 .name {
@@ -87,6 +87,7 @@ p {
 }
 
 .social-media-link {
+  font-size: x-large;
   color: #999999;
   text-decoration: none; /* 沒有底線 */
   margin: 0 5px;
